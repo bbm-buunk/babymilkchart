@@ -1,0 +1,289 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"props": {
+				"width": 207.69230769230768,
+				"height": 304.4307692307692,
+				"children": [
+					"statusBar",
+					"headerBar",
+					"img",
+					"lbl",
+					"flexlayout"
+				],
+				"name": "page1",
+				"flexProps": {
+					"flexDirection": "COLUMN",
+					"alignItems": "CENTER",
+					"direction": "INHERIT",
+					"flexWrap": "NOWRAP",
+					"justifyContent": "SPACE_AROUND"
+				},
+				"style": {
+					"backgroundColor": "#EEEEEE",
+					"font": {}
+				},
+				"isRemovable": true,
+				"layout": {
+					"width": 93.75,
+					"height": 150.75
+				},
+				"flex": {
+					"flexDirection": 0,
+					"alignItems": 2,
+					"direction": 0,
+					"flexWrap": 0,
+					"justifyContent": 4
+				},
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"props": {
+				"height": 25,
+				"name": "statusBar",
+				"parent": "page1",
+				"flexProps": {},
+				"style": {
+					"font": {}
+				},
+				"isRemovable": false,
+				"layout": {
+					"height": 12.5
+				},
+				"flex": {},
+				"visibility": true
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"props": {
+				"height": 56.6,
+				"title": "Baby Milk Chart",
+				"titleColor": "rgba( 0, 0, 0, 1 )",
+				"name": "headerBar",
+				"parent": "page1",
+				"flexProps": {},
+				"style": {
+					"font": {}
+				},
+				"isRemovable": false,
+				"layout": {
+					"height": 28.3
+				},
+				"flex": {},
+				"visibility": true
+			}
+		},
+		{
+			"type": "Label",
+			"id": "980522a9",
+			"props": {
+				"left": 52.20000076293945,
+				"top": 277.3500061035156,
+				"right": 0,
+				"bottom": 0,
+				"height": 90.45000000000002,
+				"name": "lbl",
+				"parent": "page1",
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"alignSelf": "STRETCH",
+					"marginLeft": 20,
+					"marginRight": 20
+				},
+				"style": {
+					"textAlign": "MIDCENTER",
+					"backgroundColor": "rgba( 255, 255, 255, 0 )",
+					"opacity": 1,
+					"borderColor": "rgba( 255, 255, 255, 1 )",
+					"borderRadius": 0,
+					"borderWidth": 0,
+					"font": {
+						"size": 16,
+						"family": "Arial"
+					}
+				},
+				"layout": {
+					"left": 26.100000381469727,
+					"top": 138.6750030517578,
+					"height": 45.22500000000001
+				},
+				"flex": {
+					"positionType": 0,
+					"alignSelf": 4,
+					"marginLeft": 10,
+					"marginRight": 10
+				},
+				"visibility": true
+			}
+		},
+		{
+			"type": "ImageView",
+			"id": "845d2004",
+			"props": {
+				"left": 54.25,
+				"top": 116.5999984741211,
+				"right": 0,
+				"bottom": 0,
+				"height": 60.3,
+				"name": "img",
+				"parent": "page1",
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"alignSelf": "STRETCH",
+					"marginLeft": 20,
+					"marginRight": 20
+				},
+				"style": {
+					"borderColor": "rgba( 255, 255, 255, 1 )",
+					"borderWidth": 0,
+					"borderRadius": 0,
+					"opacity": 1,
+					"font": {}
+				},
+				"layout": {
+					"left": 27.125,
+					"top": 58.29999923706055,
+					"height": 30.15
+				},
+				"flex": {
+					"positionType": 0,
+					"alignSelf": 4,
+					"marginLeft": 10,
+					"marginRight": 10
+				},
+				"visibility": true,
+				"image": "smartface.png",
+				"imageFillType": "ASPECTFIT"
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "d0fa9c62",
+			"props": {
+				"right": 0,
+				"bottom": 0,
+				"height": 130,
+				"children": [
+					"btn",
+					"button1"
+				],
+				"name": "flexlayout",
+				"parent": "page1",
+				"flexProps": {
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "COLUMN",
+					"positionType": "RELATIVE",
+					"alignSelf": "STRETCH",
+					"marginLeft": 20,
+					"marginRight": 20
+				},
+				"style": {
+					"backgroundColor": "rgba( 255, 255, 255, 0 )",
+					"opacity": 1,
+					"borderColor": "rgba(0,0,0,1)",
+					"borderWidth": 0,
+					"font": {}
+				},
+				"layout": {
+					"height": 65
+				},
+				"flex": {
+					"alignContent": 4,
+					"alignItems": 4,
+					"justifyContent": 0,
+					"flexWrap": 0,
+					"flexDirection": 0,
+					"positionType": 0,
+					"alignSelf": 4,
+					"marginLeft": 10,
+					"marginRight": 10
+				},
+				"visibility": true
+			}
+		},
+		{
+			"type": "Button",
+			"id": "48653d59",
+			"props": {
+				"left": 56.25,
+				"top": 422.1,
+				"right": 0,
+				"bottom": 0,
+				"height": 60,
+				"name": "btn",
+				"parent": "flexlayout",
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"alignSelf": "STRETCH"
+				},
+				"style": {
+					"backgroundColor": "rgba( 0, 161, 241, 1 )",
+					"font": {
+						"color": "rgba( 255, 255, 255, 1 )",
+						"family": "Arial",
+						"size": 16
+					},
+					"opacity": 1,
+					"borderColor": "rgba( 255, 255, 255, 1 )",
+					"borderRadius": 0,
+					"borderWidth": 0
+				},
+				"layout": {
+					"left": 28.125,
+					"top": 211.05,
+					"height": 30
+				},
+				"flex": {
+					"positionType": 0,
+					"alignSelf": 4
+				},
+				"visibility": true,
+				"text": null
+			}
+		},
+		{
+			"type": "Button",
+			"id": "b537df46",
+			"props": {
+				"width": 250,
+				"height": 70,
+				"children": [],
+				"name": "button1",
+				"parent": "flexlayout",
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"style": {
+					"backgroundColor": "#00A1F1",
+					"opacity": 1,
+					"borderColor": "rgba(0,0,0,1)",
+					"borderWidth": 0,
+					"color": "#FFFFFF",
+					"textAlign": "MIDCENTER",
+					"font": {
+						"size": 16,
+						"bold": false,
+						"color": "#FFFFFF",
+						"italic": false
+					}
+				},
+				"layout": {
+					"width": 125,
+					"height": 35
+				},
+				"flex": {
+					"positionType": 0
+				},
+				"visibility": true,
+				"text": "Button"
+			}
+		}
+	]
+}
